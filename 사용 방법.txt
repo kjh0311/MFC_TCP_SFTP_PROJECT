@@ -1,0 +1,8 @@
+사용 방법
+
+1. datafiles 폴더에 실제로 업로드할 파일을 넣어야 합니다.
+2. CDeviceInfoManager.h 파일에서,
+/root/sd1, /root/sd2 등의 위치에 실제 SD 카드 경로를 넣습니다.
+3. datafiles 폴더에 적절한 파일을 모두 준비하였으면 CDeviceInfoManager.h 파일의 9~10 줄에 있는,
+TARGET_FILENAME을 test.txt가 아닌,
+do-init.sh로 교체합니다.
